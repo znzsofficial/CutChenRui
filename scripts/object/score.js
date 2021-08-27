@@ -25,7 +25,7 @@ define("scripts/object/score.js", function(exports, require, module) {
   };
 
   exports.number = function(number) {
-    score.attr("text", "盈利" + number + "元");
+    score.attr("text", "盈利" + number*2 + "元");
     score.attr("font-size", "36px");
     setTimeout(function() {
       score.attr("font-size", "30px");
