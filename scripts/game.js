@@ -24,7 +24,7 @@ define("scripts/game.js", function(exports, require, module) {
   function reset() {
     scoreNumber = 0;
     mistakeNumber = 0;
-    mistakeLimit = 3;
+    mistakeLimit = 5;
     gameOver = false;
   }
 
