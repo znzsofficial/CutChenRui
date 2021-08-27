@@ -40,7 +40,7 @@ define("scripts/object/mistake.js", function(exports, require, module) {
   };
 
   var mistakes = [];
-  var number = 0, limit = 3, count = 30;
+  var number = 0, limit = 5, count = 30;
 
   function setPos() {
     var x = layout.width() - 1, y = 6;
@@ -82,7 +82,7 @@ define("scripts/object/mistake.js", function(exports, require, module) {
   };
 
   function reset() {
-    number = 0, limit = 3;
+    number = 0, limit = 5;
     for (var i = 0; i < mistakes.length; i++) {
       mistakes[i].uncheck();
     }
