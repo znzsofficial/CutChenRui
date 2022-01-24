@@ -37,7 +37,7 @@ define("scripts/fruit-manager.js", function(exports, require, module) {
     ],
 
     "basiclaw": [
-      {img: "basiclaw", width: 66, height: 96, radius: 36, isBomb: true, isStatic: true, color: "#ffe155"}
+      {img: "basiclaw", width: 96, height: 96, radius: 36, isBomb: true, isStatic: true, color: "#ffe155"}
     ],
 
     "shakespeare": [

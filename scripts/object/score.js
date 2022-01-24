@@ -11,7 +11,7 @@ define("scripts/object/score.js", function(exports, require, module) {
   };
 
   exports.show = function() {
-    score.attr("text", "盈利0元");
+    score.attr("text", "得分:0特斯拉币");
     score.show();
     translateX(score, -59, 7, 500);
   };
@@ -25,7 +25,7 @@ define("scripts/object/score.js", function(exports, require, module) {
   };
 
   exports.number = function(number) {
-    score.attr("text", "盈利" + number*2 + "元");
+    score.attr("text", "得分：" + number*3 + "特斯拉币");
     score.attr("font-size", "36px");
     setTimeout(function() {
       score.attr("font-size", "30px");
