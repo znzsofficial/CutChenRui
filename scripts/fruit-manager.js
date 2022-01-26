@@ -12,13 +12,8 @@ define("scripts/fruit-manager.js", function(exports, require, module) {
   var groups = {
     "frog": [
       {img: "f1", width: 128, height: 128, radius: 36, fixAngle: 5},
-      {img: "f2", width: 128, height: 128, radius: 36, fixAngle: 5},
-      {img: "f3", width: 128, height: 128, radius: 36, fixAngle: -25},
-      {img: "f4", width: 128, height: 128, radius: 36, fixAngle: -25},
-      {img: "f5", width: 128, height: 128, radius: 36, fixAngle: -45},
-      {img: "f6", width: 128, height: 128, radius: 36, fixAngle: -45}
-    ],
-
+      {img: "f2", width: 128, height: 128, radius: 36, fixAngle: 5}
+      ],
     "bun": [
       {img: "b1", width: 128, height: 128, radius: 32, fixAngle: -45, color: "#e6c731"},
       {img: "b2", width: 128, height: 128, radius: 32, fixAngle: -85, color: "#e6c731"},
@@ -28,9 +23,8 @@ define("scripts/fruit-manager.js", function(exports, require, module) {
 
     "winnie": [
       {img: "w1", width: 96, height: 96, radius: 36, fixAngle: 180},
-      {img: "w2", width: 96, height: 96, radius: 36, fixAngle: 180},
-      {img: "w3", width: 96, height: 96, radius: 36, fixAngle: 180}
-    ],
+      {img: "w2", width: 96, height: 96, radius: 36, fixAngle: 180}
+          ],
 
     "gesar": [
       {img: "gesar", width: 68, height: 96, radius: 36, isBomb: true, isStatic: true, color: "#c8e925"}
